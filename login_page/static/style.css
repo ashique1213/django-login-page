@@ -1,0 +1,23 @@
+.navcolor{
+  background-color: #0e3172  !important;
+}
+
+header {
+  height: 100vh;
+  padding-top: 9.5rem;
+  padding-bottom: 6rem;
+}
+
+.background-color{
+  background-color:#fff  !important;
+  color:#0e3172  !important;
+}
+
+.newbtncolor {
+  background-color:#0e3172  !important;
+}
+
+.newcolor{
+  color: white !important;
+  font-size: 20px !important;
+}
