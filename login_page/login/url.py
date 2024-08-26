@@ -22,5 +22,4 @@ urlpatterns = [
     path("", views.loginpage, name="login"),
     path("home/", views.homepage, name="home"),
     path("logout/", views.logoutpage, name="logout"),
-    # path('', views.loginpage, name=''),
 ]
