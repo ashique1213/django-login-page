@@ -1,8 +1,6 @@
 from django.shortcuts import render, redirect
-from django.contrib.auth.models import User
 from django.views.decorators.cache import never_cache
 from django.contrib.auth import authenticate, login, logout
-
 
 @never_cache
 def loginpage(request):
@@ -31,4 +29,3 @@ def logoutpage(request):
     if request.user.is_authenticated:
         logout(request)
     return redirect('login')
-
